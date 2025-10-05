@@ -10,7 +10,7 @@ interface MovieModalProps {
 }
 
 
-export default function ModalWindow({ movie, onClose}: MovieModalProps) {
+export default function MovieModal({ movie, onClose}: MovieModalProps) {
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
